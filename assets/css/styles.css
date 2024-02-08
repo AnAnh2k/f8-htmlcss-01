@@ -66,6 +66,7 @@ a {
 
 .hero-wrap {
     display: flex;
+    justify-content: center;
     flex-direction: column;
     position: relative;
     background-color: #e6f0ff;
@@ -111,15 +112,15 @@ a {
     border-radius: 8px;
 }
 
-.hero {
-    margin-top: 130px;
+.hero-wrap {
+    /* margin-top: 130px; */
 }
 
-.hero .intfo {
+.hero-wrap .intfo {
     width: 51%;
 }
 
-.hero .sub-title {
+.hero-wrap .sub-title {
     font-weight: 500;
     font-size: 1.8rem;
     line-height: 1.5;
@@ -127,7 +128,7 @@ a {
     color: #687690;
 }
 
-.hero .title {
+.hero-wrap .title {
     margin-top: 8px;
     color: #000336;
     font-size: 6.2rem;
@@ -135,19 +136,19 @@ a {
     line-height: 1.19;
 }
 
-.hero .desc {
+.hero-wrap .desc {
     margin-top: 30px;
     line-height: 32px;
     font-size: 18px;
     color: #5a6473;
 }
 
-.hero-cta {
+.hero-wrap-cta {
     min-width: 170px;
     margin-top: 40px;
 }
 
-.hero .hero-img {
+.hero-wrap .hero-img {
     position: absolute;
     right: calc((100vw - 1110px) / 2 - 100px);
     bottom: 0;
